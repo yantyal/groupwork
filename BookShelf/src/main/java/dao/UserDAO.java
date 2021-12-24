@@ -12,7 +12,7 @@ import model.User;
 
 //Userテーブルを扱うDAOクラス
 public class UserDAO {
-	private final String JDBC_URL = "jdbc:mysql://172.16.71.121:3306/groupwork";
+	private final String JDBC_URL = "jdbc:mysql://database-1.cnwd3cleniwz.ap-northeast-1.rds.amazonaws.com/groupwork?serverTimezone=JST";
 	private final String DB_USER = "groupb";
 	private final String DB_PASS = "groupbpass";
 	//コンストラクタでドライバをロード
